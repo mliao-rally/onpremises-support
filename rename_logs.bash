@@ -60,7 +60,7 @@ if [ -d ./var ]; then
 	cd $basedir
 fi
 
-dirs=( ./var/log/domains/alm/logs ./var/log/domains/analytics/logs ./var/log/domains/solr/logs )
+dirs=( ./var/log/domains/alm/logs ./var/log/domains/analytics/logs ./var/log/domains/solr/logs ./var/log/httpd )
 
 for dir in ${dirs[@]}
 do
