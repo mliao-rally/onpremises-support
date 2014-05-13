@@ -14,7 +14,7 @@ OPTIONS:
 EOF
 }
 
-# A POSIX variable
+# OPT boolean variable for getopts
 OPTIND=1         # Reset in case getopts has been used previously in the shell.
 
 # Initialize our own variables:
